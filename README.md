@@ -31,7 +31,7 @@ class App extends Component {
 | Props     | Type      | Default                                                                                                           | Definition                              |
 |-----------|-----------|-------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
 | text      | String    | `Silahkan buka di smartphone kamu atau putar smartphone kamu ke posisi vertical untuk visual yang lebih baik.`    | Text to display when overlay is showing |
-| type      | String    | `portrait | landscape | desktop_landscape`                                                                        | Viewport or orientation to restrict     |
+| type      | String    | `portrait/landscape/desktop_landscape`                                                                            | Viewport or orientation to restrict     |
 
 ## License
 
