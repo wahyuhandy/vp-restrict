@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class ViewportRestrict extends Component {
     render() {
-        require(`lib/css/${this.props.type}.css`);
+        require(`./css/${this.props.type}.css`);
         return (
             <div className="wp_pop">
                 <div className="wp_content">

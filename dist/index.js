@@ -45,7 +45,7 @@ function (_Component) {
   _createClass(ViewportRestrict, [{
     key: "render",
     value: function render() {
-      require("lib/css/".concat(this.props.type, ".css"));
+      require("./css/".concat(this.props.type, ".css"));
 
       return _react.default.createElement("div", {
         className: "wp_pop"
